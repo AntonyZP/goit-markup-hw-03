@@ -24,11 +24,18 @@ body {
 
 .container {
     width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+
     margin-left: auto;
     margin-right: auto;
-    /* outline: 1px solid tomato; */
+     /* outline: 1px solid tomato;  */
+}
+
+ .section,
+ .page-footer,
+ .page-header
+  {
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
 .features-container, 
@@ -149,15 +156,18 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;}
 
 .page-header {
     background-color: var(--white-cl);
-;}
+    border-bottom-color: #ECECEC;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
 
 
 .header-container {
     display: flex;
     align-items: center;
-    border-bottom-color: #ECECEC;
+    /* border-bottom-color: #ECECEC;
         border-bottom-style: solid;
-        border-bottom-width: 1px;
+        border-bottom-width: 1px; */
 }
 
 .logo-header {
@@ -173,9 +183,9 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;}
     letter-spacing: 0.02em;
 }
 
-.header-nav {
+/* .header-nav {
     margin-right: auto;
-}
+} */
 
 .header-list {
     display: flex;
@@ -191,6 +201,7 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;}
 }
 
 .communication-list {
+    margin-left: auto;
     display: flex;
     color: var(--secondary-txt-cl);
 }
@@ -309,7 +320,14 @@ padding-top: 200px;}
     border-radius: 0px 0px 4px 4px;
 }
 
+.teammate-wrapper {
+    padding: 30px 61px;
+
+}
+
+
 .team-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
