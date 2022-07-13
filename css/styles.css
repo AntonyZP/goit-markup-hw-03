@@ -24,25 +24,17 @@ body {
 
 .container {
     width: 1200px;
-
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
      /* outline: 1px solid tomato;  */
 }
 
- .section,
- .page-footer,
- .page-header
-  {
-    padding-left: 15px;
-    padding-right: 15px; 
+ .section  {  
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-
-.features-container, 
-.about-container,
-.team-container,
-.project-container {padding-top: 94px;
-padding-bottom: 94px;}
 
 
 
@@ -217,7 +209,7 @@ background-color: var(--footer-bg-cl);
  
 }
 
-.hero .container
+.hero-container
 {padding-bottom: 200px;
 padding-top: 200px;}
 
@@ -291,7 +283,7 @@ padding-top: 200px;}
 
 /* about styles - team styles */
 
-.about-container {
+.about {
     padding-top: 0;
 }
 
